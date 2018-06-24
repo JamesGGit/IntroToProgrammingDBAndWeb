@@ -12,6 +12,15 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
 
+/**
+ * @author SummerCamp Teacher1
+ * @version 1.0
+ * This class randomly calls list of strings defined in a file.
+ * The first argument is the name of the file. 
+ * If a second argument is specified, it is assumed to be the number of random strings to retrieve from the file at one time.
+ * If a second argument is not specified, then we fetch only one string at random from file name provided in first argument.
+ */
+
 public class RandomCallFromFile {
     
     private static Random random = new Random();

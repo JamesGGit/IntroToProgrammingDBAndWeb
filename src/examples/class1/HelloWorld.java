@@ -1,5 +1,11 @@
 package examples.class1;
 
+/**
+ * This is a simple class to demonstrate a standalone Java application
+ * @author SummerCamp Teacher1
+ * @version 1.0
+ */
+
 public class HelloWorld {
     
     public static void main (String args[]) {

@@ -3,11 +3,17 @@ package utilities;
 import exception.DataFormatException;
 import static exception.DataFormatException.FormatExceptionType.*;
 
+/**
+ * @author SummerCamp Teacher1
+ * @version 1.0
+ * This class contains utility methods to convert decimal to binary and binary back to decimal
+ */
+
 public class DataFormats {
     
     
     public static void main (String args[]) throws DataFormatException {
-        long decimal = 1024;
+        long decimal = 5;
         String binary = decimalToBinary(decimal);
         System.out.println(String.format("Binary form of decimal %s is %s",decimal,binary));
         System.out.println(String.format("Decimal form of binary %s is %s",binary,decimal));

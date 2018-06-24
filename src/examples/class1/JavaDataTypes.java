@@ -1,5 +1,11 @@
 package examples.class1;
 
+/**
+ * This class demonstrates range for some of the Java primitive datatypes
+ * @author SummerCamp Teacher1
+ * @version 1.0
+ */
+
 public class JavaDataTypes {
     
     public static void main (String args[]) {
